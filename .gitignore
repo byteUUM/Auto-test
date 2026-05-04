@@ -35,3 +35,17 @@ config.local.*
 credentials.*
 *.pem
 *.key
+
+# --- Browser drivers ---
+chromedriver-win64/
+chromedriver.exe
+geckodriver.exe
+
+# --- WebDriver Manager cache ---
+.wdm/
+
+# --- Cookies / session data ---
+*.pkl
+
+# --- Claude config (local user settings) ---
+.claude/
